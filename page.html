@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Бизнес my life - English 1st - франшиза школы иностранных языков </title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap-grid.min.css" integrity="sha512-q0LpKnEKG/pAf1qi1SAyX0lCNnrlJDjAvsyaygu07x8OF4CEOpQhBnYiFW6YDUnOOcyAEiEYlV4S9vEc6akTEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_row">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="Бизнес My Life">
+                </a>
+                <form action="" class="header_search d-none d-lg-flex">
+                    <input type="search" placeholder="Поиск по сайту">
+                    <button type="submit" class="btn_main">
+						<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M11.1598 10.0287H10.4952L10.2596 9.80159C11.0841 8.84255 11.5804 7.59749 11.5804 6.24307C11.5804 3.22296 9.13235 0.774902 6.11224 0.774902C3.09213 0.774902 0.644073 3.22296 0.644073 6.24307C0.644073 9.26318 3.09213 11.7112 6.11224 11.7112C7.46667 11.7112 8.71173 11.2149 9.67076 10.3905L9.8979 10.626V11.2906L14.1042 15.4885L15.3577 14.235L11.1598 10.0287ZM6.11224 10.0287C4.01751 10.0287 2.32659 8.3378 2.32659 6.24307C2.32659 4.14834 4.01751 2.45742 6.11224 2.45742C8.20697 2.45742 9.8979 4.14834 9.8979 6.24307C9.8979 8.3378 8.20697 10.0287 6.11224 10.0287Z"/>
+						</svg>
+					</button>
+                </form>
+                <div class="header_callback d-none d-sm-block">
+                    <button type="button" class="color-2 pt f_09 td_und mx-auto mx-sm-0 mb-2 mb-sm-1 mb-md-0">Обратная связь</button>
+                </div>
+                <a href="favorites.html" class="fav_btn mr-0 mr-sm-5 mr-md-0">
+                    <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M9.76585 3.12899L11.85 7.4522L12.0799 7.92916L12.6036 8.00707L17.3115 8.70742L13.8892 12.1226L13.5241 12.487L13.6093 12.9957L14.4121 17.7879L10.2398 15.5423L9.76585 15.2872L9.29191 15.5423L5.11956 17.7879L5.92241 12.9957L6.00764 12.487L5.64253 12.1226L2.22018 8.70742L6.92808 8.00707L7.4518 7.92916L7.68173 7.4522L9.76585 3.12899Z" />
+					</svg>
+                    <span>3</span>
+                </a>
+                <a href="" class="fav_btn mr-0 mr-sm-5 mr-md-0">
+                    <svg enable-background="new 0 0 40 40" version="1.1" viewBox="0 0 40 40" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M38.9,11.9c-0.8-0.9-1.9-1.5-3.1-1.5H20.4c-0.5,0-1,0.4-1,1c0,0.6,0.5,1,1,1h15.4c0.6,0,1.2,0.3,1.6,0.7   c0.4,0.5,0.6,1.1,0.4,1.7l-0.9,5h-11c-0.5,0-1,0.4-1,1s0.5,1,1,1h10.7l-0.9,4.8c-0.1,0.7-0.8,1.2-1.5,1.2H15   c-0.7,0-1.3-0.5-1.5-1.2L9.6,4.9c-0.1-0.5-0.5-0.8-1-0.8H0.9c-0.5,0-1,0.4-1,1s0.5,1,1,1h6.9l3.8,21c0.2,1.4,1.2,2.4,2.5,2.8   c-0.5,0.7-0.9,1.6-0.9,2.6c0,2.5,2,4.5,4.5,4.5c2.5,0,4.5-2,4.5-4.5c0-0.9-0.3-1.8-0.8-2.5h6.1c-0.5,0.7-0.8,1.6-0.8,2.5   c0,2.5,2,4.5,4.5,4.5c2.5,0,4.5-2,4.5-4.5c0-1-0.3-1.9-0.8-2.6c1.3-0.3,2.4-1.4,2.7-2.8l2.2-11.8C40,14.1,39.7,12.9,38.9,11.9z    M20.2,32.4c0,1.4-1.1,2.5-2.5,2.5s-2.5-1.1-2.5-2.5c0-1.4,1.1-2.5,2.5-2.5S20.2,31,20.2,32.4z M31.3,34.9c-1.4,0-2.5-1.1-2.5-2.5   c0-1.4,1.1-2.5,2.5-2.5c1.4,0,2.5,1.1,2.5,2.5C33.8,33.8,32.7,34.9,31.3,34.9z"></path>
+                    </svg>
+                    <span>3</span>
+                </a>
+                <a href="#" class="btn_user_page">
+                    <span>Войти</span>
+                    <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8.47234 3.80118L7.25985 5.01368L9.51162 7.26545H0.677734V8.99759H9.51162L7.25985 11.2494L8.47234 12.4619L12.8027 8.13152L8.47234 3.80118ZM16.2669 14.194H9.33841V15.9261H16.2669C17.2196 15.9261 17.9991 15.1467 17.9991 14.194V2.06905C17.9991 1.11637 17.2196 0.336914 16.2669 0.336914H9.33841V2.06905H16.2669V14.194Z" fill="white"/>
+					</svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="top inner">
+        <div class="container d-flex align-items-center justify-content-between py-1 py-lg-0">
+            <nav id="main-menu" class="d-none d-lg-block">
+                <ul class="navbar-nav mt-3 mt-md-0 ms-auto me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Поиск инвестора</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Предложения инвесторов</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Поиск бизнес парнёров</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Продажа бизнеса</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Франшизы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">Новости</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="navbar-toggler d-lg-none" type="button">
+                <img src="images/icons/burger.svg" alt="меню" />
+            </button>
+            <form action="" class="header_search d-flex d-lg-none">
+                <input type="search" placeholder="Поиск по сайту">
+                <button type="submit" class="btn_main">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.1598 10.0287H10.4952L10.2596 9.80159C11.0841 8.84255 11.5804 7.59749 11.5804 6.24307C11.5804 3.22296 9.13235 0.774902 6.11224 0.774902C3.09213 0.774902 0.644073 3.22296 0.644073 6.24307C0.644073 9.26318 3.09213 11.7112 6.11224 11.7112C7.46667 11.7112 8.71173 11.2149 9.67076 10.3905L9.8979 10.626V11.2906L14.1042 15.4885L15.3577 14.235L11.1598 10.0287ZM6.11224 10.0287C4.01751 10.0287 2.32659 8.3378 2.32659 6.24307C2.32659 4.14834 4.01751 2.45742 6.11224 2.45742C8.20697 2.45742 9.8979 4.14834 9.8979 6.24307C9.8979 8.3378 8.20697 10.0287 6.11224 10.0287Z"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <main>
+        <div class="container pt-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Франшизы</a></li>
+                    <li class="breadcrumb-item"><a href="category.html">Образование</a></li>
+                </ol>
+            </nav>
+        </div>
+
+        <section id="offer_page" class="container">
+            <div class="row mb-4 mb-md-0" id="offer_page_header">
+                <div class="col-md-8">
+                    <h1>English 1st - франшиза школы иностранных языков</h1>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-md-end">
+                        <button class="add_to_fav">
+                            <svg class="color-1" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"></path>
+                            </svg>
+                        </button>
+                        <div class="color-1 f_15 fw_9 ms-4">1 000 000 Р</div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row">
+                <span>ID: 55113344</span>
+                <time class="d-flex align-items-center ms-0 ms-sm-4">
+                    <img src="images/icons/icon5.png" alt="дата" class="me-1">
+                    <span>12.10.2020</span>
+                </time>
+                <div class="d-flex align-items-center ms-0 ms-sm-4">
+                    <img src="images/icons/icon6.png" alt="просмотры" class="me-1">
+                    <span>120 просмотров</span>
+                </div>
+            </div>
+            <hr>
+            <div class="row justify-content-center text-md-center">
+                <div class="col-sm-6 col-lg-4 col-xl-3">
+                    <span class="pt f_11">Прибыль в месяц:</span> <span class="f_13 color-1 fw_5 ms-2">100 000 Р</span>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 mt-3 mt-sm-0">
+                    <span class="pt f_11">Инвестиции:</span> <span class="f_13 color-1 fw_5 ms-2">1 000 000 Р</span>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 mt-3 mt-lg-0">
+                    <span class="pt f_11">Оборот в месяц:</span> <span class="f_13 color-1 fw_5 ms-2">50 000 Р</span>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-3 mt-3 mt-xl-0">
+                    <span class="pt f_11">Окупаемость:</span> <span class="f_13 color-1 fw_5 ms-2">12 мес.</span>
+                </div>
+            </div>
+            <div class="position-relative my-5">
+                <div class="swiper_1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/offer_page.jpg" class="offer_page_img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/offer_page.jpg" class="offer_page_img">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/offer_page.jpg" class="offer_page_img">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="connection">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="images/photo.png" alt="Александр Васильев">
+                        <div class="ms-2">
+                            <p class="f_12 fw_5 mb-1">Александр Васильев</p>
+                            <p class="pt f_09">Представитель франшизы</p>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <span>Телефон:</span>
+                        <span class="color-1 td_und f_11">Показать телефон</span>
+                    </div>
+                    <button class="btn_main btn_4 w-100 mb-2">Заказать звонок</button>
+                    <button class="btn_main btn_2 w-100">Получить бизнес - план</button>
+                </div>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="white_box box_shad h-100 d-flex align-items-center">
+                        <span class="f_12 fw_5 color-1">2015</span>
+                        <span class="pt f_09 lh_1 ms-2">Год основания бизнеса</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-3 mt-sm-0">
+                    <div class="white_box box_shad h-100 d-flex align-items-center">
+                        <span class="f_12 fw_5 color-1">14</span>
+                        <span class="pt f_09 lh_1 ms-2">Количество собственных точек</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-3 mt-md-0">
+                    <div class="white_box box_shad h-100 d-flex align-items-center">
+                        <span class="f_12 fw_5 color-1">2018</span>
+                        <span class="pt f_09 lh_1 ms-2">Год запуска франшизы</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-3 mt-lg-0">
+                    <div class="white_box box_shad h-100 d-flex align-items-center">
+                        <span class="f_12 fw_5 color-1">20</span>
+                        <span class="pt f_09 lh_1 ms-2">Количество проданных франшиз</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4 mb-md-5">
+                <div class="col-md-4 col-lg-3 position-relative">
+                    <div class="left_menu">
+                        <nav class="anchor_menu d-none d-md-block">
+                            <ul>
+                                <li class="active"><a href="#anchor_1" class="scrollto">Описание компании</a></li>
+                                <li><a href="#anchor_2" class="scrollto">Описание франшизы</a></li>
+                                <li><a href="#anchor_3" class="scrollto">Преимущества франшизы</a></li>
+                                <li><a href="#anchor_4" class="scrollto">Этапы сотрудничества</a></li>
+                                <li><a href="#anchor_5" class="scrollto">Условия сотрудничества</a></li>
+                                <li><a href="#anchor_6" class="scrollto">Покупка франшизы</a></li>
+                                <li><a href="#anchor_7" class="scrollto">Фотогалерея</a></li>
+                                <li><a href="#anchor_8" class="scrollto">Похожие франшизы</a></li>
+                            </ul>
+                        </nav>
+                        <img src="images/Group227.jpg" alt="" class="img-fluid mt-4">
+                        <img src="images/Group227.jpg" alt="" class="img-fluid mt-4">
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-9">
+                    <div class="offer_page_main">
+                        <hr class="mt-md-0">
+                        <div class="d-flex align-items-baseline mb-5">
+                            <img src="images/icons/pin.svg" alt="" style="width:1em;">
+                            <span class="gray ms-2">Регионы продаж:</span>
+                            <span class="ms-3">Казань</span>
+                        </div>
+                        <section class="anchor_block" id="anchor_1">
+                            <h4 class="fw_7">Описание компании</h4>
+                            <p>Школа английского языка предлагает курсы для детей и взрослых. Наши современные методики обучения и специально разработанные программы по обучению иностранным языкам помогают эффективно и в короткие сроки достичь отличных результатов.
+                                Мы предлагаем занятия для детей от 5 лет, а гибкий график занятий Вы сможете настроить индивидуально для вашего ребенка. В нашей школе дети могут изучать языки в течение всего учебного года, а также во время отдыха в нашем
+                                летнем языковом лагере.</p>
+                        </section>
+
+                        <section class="anchor_block" id="anchor_2">
+                            <h4 class="fw_7">Описание франшизы</h4>
+                            <p>Франшиза «English 1st» включает не только формат офлайн-обучения детей, но и онлайн. В пакет франшизы входят: онлайн-игры, мобильное приложение, онлайн-тесты для детей. С 2020 года франчайзер запустил новые образовательные
+                                онлайн-продукты. Они позволяют детям учиться по видеоурокам в записи или онлайн-урокам с педагогами в прямом эфире, не выходя из дома. Продукты включены в пакет франшизы детского языкового центра English 1st. Также набор
+                                программ дополнен новыми авторскими курсами по скорочтению и каллиграфии.</p>
+                        </section>
+
+                        <section class="anchor_block" id="anchor_3">
+                            <h4 class="fw_7">Преимущества франшизы</h4>
+                            <ul>
+                                <li>Уникальная авторская методика, гарантирующая быстрый результат;</li>
+                                <li>Небольшие стартовые инвестиции;</li>
+                                <li>Поддержка на всех этапах открытия и работы Центра;</li>
+                                <li>Более 130 успешно работающих филиалов по всему миру.</li>
+                            </ul>
+                            <h4 class="fw_7">Во франчайзинговый пакет входит:</h4>
+                            <ul>
+                                <li>Бизнес-план</li>
+                                <li>Маркетинговый план</li>
+                                <li>Комплект методических пособий с поурочным планированием</li>
+                                <li>Сценарии праздников и мероприятий</li>
+                                <li>Комплект плакатов, игр, флэшкарт</li>
+                                <li>Типовой дизайн-проект с 3D-визуализацией</li>
+                                <li>Более 1000 дизайнерских макетов</li>
+                                <li>Документы, необходимые для получения лицензии</li>
+                                <li>Обучение франчайзи и кураторство на протяжении всего периода сотрудничества</li>
+                                <li>Подбор, собеседования и обучение всех преподавателей, мотивационная система для педагогов</li>
+                                <li>Сайт на общем домене</li>
+                                <li>CRM-система для ведения учета</li>
+                                <li>Поддержка специалистов франчайзера: юриста, бухгалтера, маркетолога, HR-специалиста, дизайнеров, иллюстраторов, программистов, копирайтеров – постоянная и ежедневная</li>
+                                <li>Помощь в получении субсидии на развитие бизнеса</li>
+                                <li>Регистрация договора коммерческой концессии в Роспатенте</li>
+                                <li>Регулярные консультации и семинары</li>
+                                <li>Участие в общих корпоративных мероприятиях, где партнеры сети общаются и обмениваются опытом, а также принимают участие в формировании стратегии развития сети.</li>
+                            </ul>
+                        </section>
+
+                        <section class="anchor_block" id="anchor_4">
+                            <h4 class="fw_7">Этапы сотрудничества</h4>
+                            <ol>
+                                <li>Договор коммерческой концессии заключается на пять лет и проходит обязательную регистрацию в Роспатенте.</li>
+                                <li>Подробный бизнес план с детально описанными бизнес-процессами позволит как предпринимателям с опытом, так и начинающим бизнесменам разобраться в тонкостях образовательного бизнеса.</li>
+                                <li>Франчайзер помогает подготовить документы на получение субсидии по договору франчайзинга. У нас 100% успех в получении грантов и субсидий, мы имеем в этом большой опыт!</li>
+                                <li>В работе каждому партнеру помогают два куратора, которые готовы ответить на все вопросы.</li>
+                                <li>Регулярные семинары для руководителей, а также администраторов и педагогов центров проводятся не реже двух раз в месяц, в дальнейшем все записи вебинаров можно просмотреть в записи, чтобы освежить информацию.</li>
+                                <li>Полный комплект методических материалов с поурочным планированием, сценарии праздников и мероприятий центра.</li>
+                                <li>Юрист и бухгалтер компании помогут проверить и составить договора и разобраться с налогами.</li>
+                                <li>Маркетолог и специалист по PR составили подробный маркетинговый план и окажут поддержку по любым вопросам.</li>
+                                <li>У каждого партнера свой сайт на общем домене, где он может принимать заявки на обучение, публиковать новости, расписание, информацию о педагогах центра. Посещаемость сайта - более 5000 человек.</li>
+                                <li>CRM-система «Полиглотики-бизнес», позволяющая вести кадровый, финансовый учет, планировать загрузку помещений и вести базу клиентов.</li>
+                                <li>Наш партнер получает все шаблоны и программу для получения лицензии на образовательную деятельность.</li>
+                                <li>Франчайзер помогает с поиском и подбором персонала, проводит собеседование, тестирование и обязательное обучение педагогов центра (в любом количестве).</li>
+                                <li>Узнаваемый бренд, неповторимый стиль зафиксированы в бренд-буке.</li>
+                                <li>Франчайзер проводит регулярные встречи партнеров: ежеквартальные бизнес-завтраки и ежегодные слеты. Ежедневное общение партнеров сети происходит в онлайн-чате. "Полиглотики" разработали популярную игру для изучения новых
+                                    слов – ее можно скачать бесплатно через сайт или Google Play.</li>
+                            </ol>
+                        </section>
+
+                        <section class="anchor_block" id="anchor_5">
+                            <h4 class="fw_7">Условия сотрудничества</h4>
+                            <ul>
+                                <li>Первоначальный взнос: 350 000 ₽</li>
+                                <li>Инвестиции от: 1 600 000 ₽</li>
+                                <li>Инвестиции до: 1 900 000 ₽</li>
+                                <li>Срок окупаемости: 4-8 месяцев</li>
+                                <li>Регион продажи: Россия, Казахстан, Белоруссия, Другие страны</li>
+                            </ul>
+                        </section>
+
+                        <section class="anchor_block" id="anchor_6">
+                            <h4 class="fw_7">Покупка франшизы</h4>
+                            <ul>
+                                <li>Оставьте заявку на сайте или позвоните представителю франшизы сами</li>
+                                <li>С вами связывается представитель франашизы для первичного знакомства</li>
+                                <li>Вам направляется подробный бизнес - план и материалы выбранной франшизы.</li>
+                                <li>Если франшиза вам подходит, выслаются договор покупки франшизы.</li>
+                                <li>Вы оплачиаете платёж и получаете доступ к франшизе.</li>
+                                <li>Вы начинаете вести свой бизнес!</li>
+                            </ul>
+                        </section>
+
+                        <section class="anchor_block" id="anchor_7">
+                            <h4 class="fw_7">Фотогалерея</h4>
+                            <div class="row mb-5">
+                                <div class="col-6 col-sm-4 col-lg-3 mb-4">
+                                    <a href="images/photogallery/1.jpg" data-fancybox="photogallery"><img src="images/photogallery/1.jpg" class="photogallery"></a>
+                                </div>
+                                <div class="col-6 col-sm-4 col-lg-3 mb-4">
+                                    <a href="images/photogallery/2.jpg" data-fancybox="photogallery"><img src="images/photogallery/2.jpg" class="photogallery"></a>
+                                </div>
+                                <div class="col-6 col-sm-4 col-lg-3 mb-4">
+                                    <a href="images/photogallery/3.jpg" data-fancybox="photogallery"><img src="images/photogallery/3.jpg" class="photogallery"></a>
+                                </div>
+                                <div class="col-6 col-sm-4 col-lg-3 mb-4">
+                                    <a href="images/photogallery/4.jpg" data-fancybox="photogallery"><img src="images/photogallery/4.jpg" class="photogallery"></a>
+                                </div>
+                                <div class="col-6 col-sm-4 col-lg-3 mb-4">
+                                    <a href="images/photogallery/5.jpg" data-fancybox="photogallery"><img src="images/photogallery/5.jpg" class="photogallery"></a>
+                                </div>
+                                <div class="col-6 col-sm-4 col-lg-3 mb-4">
+                                    <a href="images/photogallery/6.jpg" data-fancybox="photogallery"><img src="images/photogallery/6.jpg" class="photogallery"></a>
+                                </div>
+                            </div>
+                        </section>
+
+                        <h4 class="fw_7">Видео о франшизе</h4>
+                        <video controls class="w-100 mb-5">
+                        <source src="video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <hr>
+
+                        <div class="d-flex align-items-center mb-4">
+                            <h4 class="fw_7 mb-0">Связаться с представителем</h4>
+                            <button class="btn_main btn_4 f_09 ms-4">Начать чат</button>
+                        </div>
+
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="mb-4" placeholder="Ваше имя">
+                                    <input type="text" class="mb-4" placeholder="Ваш номер телефона">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="mb-4" placeholder="Город, в котором хотите открыть франшизу">
+                                    <input type="text" class="mb-4" placeholder="Электронная почта">
+                                </div>
+                                <div class="col-12">
+                                    <textarea rows="3" placeholder="Комментарий" class="mb-4"></textarea>
+                                    <div class="checkbox mb-4">
+                                        <input type="checkbox">
+                                        <label for="">Согласен на обработку персональнх данных</label>
+                                    </div>
+                                    <button class="btn_main btn_2">Отправить</button>
+                                </div>
+
+                            </div>
+                        </form>
+
+                        <div class="tags mt-5">
+                            <span>Франшизы</span>
+                            <span>Франшизы в сфере образования</span>
+                            <span>Франшизы</span>
+                            <span>Франшизы в сфере образования</span>
+                            <span>Франшизы</span>
+                            <span>Франшизы в сфере образования</span>
+                            <span>Франшизы</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="anchor_block" id="anchor_8">
+                <h2 class="mt-4">Похожие франшизы</h2>
+                <div class="position-relative">
+                    <div class="swiper_8">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="preview_small">
+                                    <img src="images/offers/3.jpg">
+                                    <div>
+                                        <div class="layer_1">
+                                            <p class="white">English 1st - франшиза школы иностранных языков</p>
+                                        </div>
+                                        <div class="layer_2">
+                                            <div class="white">
+                                                <div class="f_08">Инвестиции от</div>
+                                                <div>400 000 руб</div>
+                                            </div>
+                                            <button class="add_to_fav me-2">
+                                                <svg viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"/>
+                                                </svg>
+                                            </button>
+                                            <button class="btn_main btn_2 btn_img"><img src="images/icons/write.png" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">❮</div>
+                        <div class="swiper-button-next">❯</div>
+                    </div>
+                </div>
+            </section>
+            <div class="op_header_sticky d-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-3">
+                            <p class="text-center text-md-left fw_7 lh_15 mb-1 mb-md-0">English 1st - франшиза школы иностранных языков</p>
+                        </div>
+                        <div class="col-md-8 col-lg-9 d-flex justify-content-around flex-wrap">
+                            <div class="f_09">
+                                <div class="mb-md-2">
+                                    <span class="gray pt">Прибыль:</span>
+                                    <span class="fw_5">100 000 Р/месяц</span>
+                                </div>
+                                <div>
+                                    <span class="gray pt">Инвестиции:</span>
+                                    <span class="fw_5">1 000 000 Р</span>
+                                </div>
+                            </div>
+                            <div class="d-none d-sm-block pt f_09">
+                                <div class="mb-md-2">Представитель франшизы</div>
+                                <div class="color-1 td_und">Показать телефон</div>
+                            </div>
+                            <button class="add_to_fav">
+                                <svg class="color-1" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.7613 3.27059L18.1666 10.3344L18.3965 10.8114L18.9202 10.8893L26.5824 12.0291L21.0223 17.5776L20.6572 17.9419L20.7424 18.4506L22.0499 26.255L15.2352 22.5872L14.7613 22.3321L14.2874 22.5872L7.47265 26.255L8.78014 18.4506L8.86537 17.9419L8.50026 17.5776L2.9402 12.0291L10.6023 10.8893L11.1261 10.8114L11.356 10.3344L14.7613 3.27059Z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_anchors">
+                    <div class="container position-relative">
+                        <div class="swiper_menu">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#anchor_1" class="scrollto">Описание компании</a>
+                                </div>
+                                <div class="swiper-slide"><a href="#anchor_2" class="scrollto">Описание франшизы</a></div>
+                                <div class="swiper-slide"><a href="#anchor_3" class="scrollto">Преимущества франшизы</a></div>
+                                <div class="swiper-slide"><a href="#anchor_4" class="scrollto">Этапы сотрудничества</a></div>
+                                <div class="swiper-slide"><a href="#anchor_5" class="scrollto">Условия сотрудничества</a></div>
+                                <div class="swiper-slide"><a href="#anchor_6" class="scrollto">Покупка франшизы</a></div>
+                                <div class="swiper-slide"><a href="#anchor_7" class="scrollto">Фотогалерея</a></div>
+                                <div class="swiper-slide"><a href="#anchor_8" class="scrollto">Похожие франшизы</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4 mb-sm-0 ">
+                    <div class="d-flex align-items-center">
+                        <button class="d-md-none me-3" type="button">
+                            <img src="images/icons/burger-white.svg" alt="меню">
+                        </button>
+                        <img src="images/logo.png" alt="Бизнес My Life" class="f_logo mb-2">
+                    </div>
+                    <div class="pt fw_7 mb-2"><a href="tel:88432565656">8 (843) 256-56-56</a></div>
+                    <div class="pt f_09 text-uppercase">Мы в социальных сетях</div>
+                    <div class="footer-social">
+                        <a href="#" class="soc_icon"><img src="images/icons/facebook.png" alt="Facebook"></a>
+                        <a href="#" class="soc_icon"><img src="images/icons/vk.png" alt="vk"></a>
+                        <a href="#" class="soc_icon"><img src="images/icons/instagram.png" alt="instagram"></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-9">
+                    <div class="row">
+                        <div class="col-md-6 d-none d-md-block">
+                            <nav class="footer_nav">
+                                <ul class="pt">
+                                    <li><a href="category.html">Поиск инвесторов</a></li>
+                                    <li><a href="#category.html">предложения инвесторов</a></li>
+                                    <li><a href="category.html">поиск бизнес партнёров</a></li>
+                                    <li><a href="category.html">продажа бизнеса</a></li>
+                                    <li><a href="category.html">франшиза</a></li>
+                                    <li><a href="contacts.html">Контакты</a></li>
+                                    <li><a href="news.html">Новости</a></li>
+                                    <li><a href="#">Политика конфиденциальности</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pt f_09 text-uppercase mb-2">Подпишитесь на новости: выгодные бизнес предложения, лучшие франшизы и проекты</div>
+                            <form action="" class="mailing_form">
+                                <div class="d-flex mb-2">
+                                    <input type="text" placeholder="Введите e-mail">
+                                    <button type="submit" class="btn_main btn_2">OK</button>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="checkbox" name="soglasie" checked="" required="">
+                                    <label class="f_09 pt">Согласен на обработку персональных данных</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Skripts -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
